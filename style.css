@@ -1,0 +1,152 @@
+/* .w-100 {
+    max-width: auto;
+    max-height: 512;
+} */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container-3elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 15px; 
+    box-sizing: border-box;
+}
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+} */
+
+@media (max-width: 1000px) {
+    .container-3elements {
+        flex-direction: column; 
+        justify-content: center; 
+        height: 140vh;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px; 
+    }
+}
+
+
+
+
+
+/* ----- CARROSSEL ----- */
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/* ----- HR ----- */
+
+.container-hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hr {
+    margin: 80px 0px;
+    width: 80%;
+}
+
+
+/* ----- CARDS ------ */
+
+.card-1 {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.featurette {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.featurette img {
+    max-width: 100%;
+}
+
+
+footer{
+    margin-bottom: 60px;
+}
